@@ -122,8 +122,9 @@
   :mode ("\\.yml$" . yaml-mode))
 
 (use-package markdown-mode
-  :mode (("\\.markdown$" . markdown-mode)
-         ("\\.md$" . markdown-mode)))
+  :mode (("\\.markdown$" . gfm-mode)
+         ("\\.md$" . gfm-mode)))
+
 (use-package glsl-mode)
 
 (use-package clojure-mode
@@ -135,6 +136,7 @@
       (progn
         (add-hook 'cider-mode-hook 'cider-turn-on-eldoc-mode)
         (add-hook 'cider-repl-mode-hook 'subword-mode)
+        (add-hook 'cider-repl-mode-hook 'paredit-mode)
         (use-package slamhound))
       :config
       (progn
