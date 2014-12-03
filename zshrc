@@ -3,6 +3,8 @@ export ZSH=$HOME/.oh-my-zsh
 
 ZSH_THEME="agnoster"
 
+DEFAULT_USER="henry"
+
 plugins=(git osx syntax-highlighting)
 
 # User configuration
@@ -28,3 +30,4 @@ eval "$(rbenv init -)"
 
 # Java
 export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+
