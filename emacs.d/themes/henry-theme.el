@@ -3,7 +3,7 @@
 
 (deftheme henry "A dark color theme for Emacs")
 
-(let ((*background*         "#000000")
+(let ((*background*         "#1E2326")
       (*comments*           "#999999")
       (*constant*           "#F38630")
       (*current-line*       "#151515")
@@ -20,7 +20,7 @@
       (*operators*          "#69D2E7")
       (*warning*            "#FA6900")
       (*regexp*             "#FA6900")
-      (*string*             "#E0E4CC")
+      (*string*             "#2EBF7E")
       (*variable*           "#FA6900")
       (*visual-selection*   "#505C63"))
 
