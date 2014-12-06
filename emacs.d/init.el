@@ -143,10 +143,10 @@
         (setq nrepl-hide-special-buffers t)
         (setq cider-popup-stacktraces-in-repl t)
         (setq cider-repl-history-file "~/.emacs.d/nrepl-history")
-        (setq cider-repl-pop-to-buffer-on-connect nil)
         (setq cider-repl-use-clojure-font-lock t)
         (setq cider-auto-select-error-buffer nil)
-        (setq cider-prompt-save-file-on-load nil))))
+        (setq cider-prompt-save-file-on-load nil)
+        (setq cider-repl-result-prefix ";; => "))))
   :config
   (progn
     (define-clojure-indent
@@ -213,3 +213,5 @@
 (use-package ox-reveal)
 
 (global-set-key (kbd "M-3") '(lambda () (interactive) (insert "#")))
+
+(global-set-key (kbd "C-x g") 'magit-status)
