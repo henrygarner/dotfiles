@@ -46,8 +46,7 @@
 (setq require-final-newline t)
 (setq show-trailing-whitespace t)
 
-;; Color theme
-(load-theme 'henry t)
+(load-theme 'zenburn-theme t)
 
 ;; Custom mode-line
 (use-package powerline

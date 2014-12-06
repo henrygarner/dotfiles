@@ -32,3 +32,4 @@
 (depends-on "ack-and-a-half")
 (depends-on "better-defaults")
 (depends-on "ox-reveal" :git "git@github.com:yjwen/org-reveal.git" :branch "stable")
+(depends-on "zenburn-theme")
