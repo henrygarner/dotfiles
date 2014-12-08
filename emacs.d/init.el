@@ -23,7 +23,7 @@
 
 ;;;; Editor ;;;;
 
-(let ((font "Menlo:pixelsize=12"))
+(let ((font "Menlo:pixelsize=14"))
   (set-face-attribute 'default nil :font font)
   (set-frame-font font nil t))
 
